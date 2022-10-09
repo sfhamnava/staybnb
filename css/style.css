@@ -57,3 +57,51 @@ padding: 0 7%;
     text-align: center;
     padding-top: 22%;
 }
+.search-bar{
+    background: #fff;
+    width: 70%;
+    height: 50px;
+    margin: 30px auto;
+    padding: 8px 10px 6px 30px;
+    border-radius: 50px;
+}
+
+.search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-bar form input{
+    display: block;
+    border: none;
+    background: transparent;
+    width: 150px;
+    
+}
+.search-bar form button{
+    background: rgb(119, 64, 64);
+    width: 55px;
+    height: 55ox;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer; 
+}
+
+
+
+.search-bar form button img{
+
+    width: 15px;
+    margin-top: 7px;
+    padding-bottom: 7px;
+} 
+.location-input{
+    flex: 1;
+}
+
+
+.search-bar form label{
+    font-weight: 600;
+} 
