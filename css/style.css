@@ -136,7 +136,7 @@ padding: 0 7%;
 
 .exclusives div span{
     position: absolute;
-     top: 50%;
+     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -145,7 +145,7 @@ padding: 0 7%;
 
 .exclusives div h3 {
     position: absolute;
-    top: 80%;
+    top: 40%;
    left: 50%;
    transform: translate(-50%, -50%);
    text-align: center;
