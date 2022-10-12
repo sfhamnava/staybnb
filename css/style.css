@@ -257,3 +257,42 @@ padding: 0 7%;
     margin-bottom: 30px;
     font-weight: 500;
 }
+
+/* --------footer------ */
+.footer{
+    margin: 80px 0 10px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+
+.footer p{
+    margin-bottom: 15px;
+}
+.active{
+    position: relative;
+}
+
+.active::after{
+    content: '';
+    background: white;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50px;
+    transform: translate(-50%);
+    bottom: -12px;
+    border-radius: 2px;
+}
