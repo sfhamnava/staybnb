@@ -57,51 +57,47 @@ padding: 0 7%;
     text-align: center;
     padding-top: 22%;
 }
+
+
+
+/* ------------search- bar------------ */
 .search-bar{
-    background: #fff;
+    background: white;
     width: 70%;
     margin: 30px auto;
     padding: 6px 10px 6px 30px;
     border-radius: 50px;
 }
-
 .search-bar form{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
 }
-
 .search-bar form input{
+    width: 140px;
     display: block;
     border: 0;
     outline: none;
     background: transparent;
 }
 .search-bar form button{
-    background: rgb(119, 64, 64);
+    background: #ff5361;
     width: 55px;
-    height: 55ox;
+    height: 55px;
     border-radius: 50%;
     border: 0;
     outline: none;
-    cursor: pointer; 
+    cursor: pointer;
 }
-
-.search-bar form button img{
-
-    width: 15px;
-    margin-top: 7px;
-    padding-bottom: 7px;
-} 
+.search-bar form button i{
+    color: white;
+}
 .location-input{
     flex: 1;
 }
-
-
 .search-bar form label{
     font-weight: 600;
-} 
-
+}
 
 /* -----------exclusives---------- */
 
